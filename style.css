@@ -1,0 +1,493 @@
+.divcontainer{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.divitem{
+    width: 25rem;
+    display: flex;
+    justify-content: space-around;
+}
+.divsearch{
+    width: 17rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.search{
+    border-radius: 2rem !important ;
+}
+.colorbody{
+    background: #000000eb !important;
+    
+}
+.backcolor{
+    background: #00000029 !important;
+    border-color: #00000029 !important;
+    color: #292d31 !important;
+}
+.edititem{
+    color: #292d31 !important;
+}
+.edititem:hover{
+    cursor: pointer;
+    color: #d63384 !important;
+}
+.colorhome{
+    color: #d63384 !important;
+}
+
+.pad{
+    width: 100%;
+    padding-top: 1rem;
+}
+.editimg{
+    border-radius: 1rem;
+    height: 2rem;
+}
+.divprofile{
+    background-color: #00000029;
+    width: 147%;
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    height: 3rem;
+}
+.colorp{
+    color: #292d31 !important;
+}
+.divsections{
+    width: 100%;
+    height: 260vh;
+    background: #292d313d;
+    border-radius: 1rem ;
+    margin-top: 2rem;
+    padding-top: 3rem;
+}
+.divimg2{
+    width: 100%;
+    height: 56vh;
+    background-size: cover;
+    border-radius: 2rem;
+    background-image: url(./images/banner-bg.jpg);
+    color: white;
+    padding-left: 5rem;
+    padding-top: 8rem;
+}
+.paddsec{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+span{
+    color: #d63384;
+}
+.editbutton{
+    border-radius: 2rem !important;
+    height: 7vh;
+}
+.divh1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.mostpop{
+    width: 100%;
+    background: #00000029 !important;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    height: 88vh;
+}
+.editcard{
+    width: 18% !important;
+    background-color: #292d313d !important;
+    border-radius: 1rem !important;
+    height: 33vh !important;
+    margin-top: 1rem;
+}
+.editword{
+    color:#d63384;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.paramost{
+    padding-right: 1rem;
+    display: inline-block;
+    color:white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.imgcard{
+    margin-left: 1.3rem;
+    width: 79%;
+    height: 17vh;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.wordcard{
+    margin-right: 4rem;
+    color: white;
+    font-weight: bold;
+}
+.divicon{
+    display: inline-block;
+}
+.numdown{
+    display: inline-block;
+    color: white;
+}
+.sandbox{
+    margin-right: 4rem;
+    font-weight: bold;
+    color: #80808061;
+}
+.divsand{
+    width: 100%;
+    height: 3vh;
+    margin-top: -1rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wordcarddota,.wordcs-go{
+    margin-right: 5rem;
+    color: white;
+    font-weight: bold;
+}
+.wordpupg{
+    margin-right: 5.5rem;
+    color: white;
+    font-weight: bold;
+}
+.wordminicraft{
+    margin-right: 3.3rem;
+    color: white;
+    font-weight: bold;
+}
+.wordwarface{
+    margin-right: 4rem;
+    color: white;
+    font-weight: bold;
+}
+.wordwarcraft{
+    margin-right: 3.5rem;
+    color: white;
+    font-weight: bold;
+}
+.divyourgames{
+    width: 100%;
+    height: 72vh;
+    background-color: #00000029;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.divdotta{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.imgdota{
+    border-radius: 1rem;
+    width: 46%;
+}
+.editdotaword{
+    color: white;
+    font-weight: 700;
+}
+.editdotawordlower{
+    color: #80808061 ;
+}
+.buttondotta{
+    border-radius: 1rem;
+    width: 118%;
+    height: 5vh;
+    background-color: #00000000;
+    color: #80808061;
+    border-color: #80808061;
+}
+.buttondotta:hover{
+    cursor: pointer;
+    transform:scale(1.3);
+    color: white;
+    background-color:#d63384 ;
+    border-color:#d63384;
+    transition: 600ms;
+}
+.divbuttonmost{
+    width: 100%;
+    display: flex;
+    height: 13vh;
+    padding-top: 2rem;
+    justify-content: center
+}
+.brobut:hover{
+    color: white !important;
+    border-color: #d63384 !important;
+    background-color: #d63384 !important;
+}
+/* -------------------start of small screen--------------------- */
+@media screen and (max-width:512px) {
+    .divsearch{
+        margin-right: 16rem;
+        margin-bottom: 1rem;
+        margin-top: 1.3rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .divimg2{
+    width: 100%;
+    height: 56vh;
+    background-size: cover;
+    border-radius: 2rem;
+    background-image: url(./images/banner-bg.jpg);
+    color: white;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    }
+    .cards{
+        display: block;
+        margin-bottom: 3rem;
+    }
+    .editcard{
+        width: 59% !important;
+    }
+    .mostpop{
+        width: 100%;
+    background: #00000029 !important;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    height: 311vh;
+    }
+    .divsections{
+    width: 100%;
+    height: 386vh;
+    background: #292d313d;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    }
+    .divyourgames{
+    margin-top: 9rem;
+    margin-left: -13.5px;
+    width: 100%;
+    height: 361vh;
+    background-color: #00000029;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    }
+    .divbuttonmost{
+        padding-right: 3rem;
+    }
+    .divdotta{
+        display: block;
+    }
+    .data2{
+        margin-top: 1rem;
+    }
+    .butdowm{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    }
+}
+@media screen and (max-width:529px) {
+    .wordmedia{
+        margin-right: 1rem;
+    }
+}
+@media screen and (min-width:384px) and (max-width:448px) {
+    .divimg2{
+        padding-left: 2rem;
+        padding-top: 4.5rem;
+    }
+    .editcard{
+        width: 89% !important;
+    }
+    .divsections{
+        height: 393vh;
+    }
+    .mostpop{
+        height: 319vh;
+    }
+}
+/* -------------------end of small screen--------------------- */
+/* -------------------start of mid screen--------------------- */
+@media screen and (min-width:601px) and (max-width:767px) {
+    .divimg2{
+        padding-top: 5rem;
+    }
+    .cards{
+        display: block;
+    }
+    .mddisplay{
+        width: 58% !important;
+        margin-bottom: 2rem;
+    }
+    .mostpop{
+        height: 325vh;
+    }
+    .divsections{
+        height: 794vh;
+    }
+    .divyourgames{
+        margin-top: 11rem;
+        height: 365vh;
+        padding-left: 3rem;
+    }
+    .divbuttonmost{
+        margin-top: 6rem;
+    }
+    .divdotta{
+        display: block;
+    }
+    .imgdota{
+        margin-bottom: 2rem;
+    }
+    .butdowm{
+        margin-bottom: 2rem;
+    margin-top: 2rem;
+    }
+    .divbuttonmost{
+        padding-top: 0rem;
+    margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:801px) {
+    .cards{
+        display: block;
+    }
+    .mddisplay{
+    display: inline-block !important;
+    width: 41% !important;
+    margin-bottom: 3rem;
+    }
+    .editcard{
+        margin-right: 2.7rem !important;
+    }
+    .mostpop{
+        height: 183vh;
+    }
+    .divbuttonmost{
+        margin-top: 3.5rem;
+        padding-top: 0rem;
+    }
+    .divyourgames{
+        margin-top: 10rem !important;
+    }
+    .divdotta{
+        display: block;
+    }
+    .divyourgames{
+        height: 385vh;
+        padding-left: 3rem;
+    }
+    .imgdota{
+        margin-bottom: 2rem;
+    }
+    .butdowm{
+        margin-bottom: 2rem;
+    }
+}
+/* -------------------end of mid screen--------------------- */
+/* -------------------start of lg screen--------------------- */
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .wordcard{
+        margin-right: 2.3rem;
+    }
+    .wordcarddota{
+        margin-right: 3.2rem;
+    }
+    .sandbox{
+        margin-right: 1.9rem;
+    }
+    .wordpupg{
+        margin-right: 3.6rem;
+    }
+    .wordcs-go{
+        margin-right: 3rem;
+    }
+    .wordminicraft{
+        margin-right: 1.3rem;
+    }
+    .wordwarface{
+        margin-right: 2.2rem;
+    }
+    .wordwarcraft{
+        margin-right: 1.5rem;
+    }
+
+}
+@media screen and (min-width:992px) and (max-width:1199.5px){
+    .wordcard{
+        margin-right: 0.2rem;
+    }
+    .sandbox{
+        margin-right: -0.03rem;
+    }
+    .wordcarddota{
+        margin-right: 1.2rem;
+    }.wordpupg{
+        margin-right: 1.6rem;
+    }
+    .wordcs-go{
+        margin-right: 1rem;
+    }
+    .wordminicraft{
+        margin-right: 1.3rem;
+    }
+    .wordwarface{
+        margin-right: 0rem;
+    }
+    .wordwarcraft{
+        margin-right: -7px;
+    }
+    .imgcard{
+        margin-left: 1.1rem;
+    }
+}
+@media screen and (min-width:800.5px) and (max-width:991.5px){
+    .cards{
+        display: block;
+    }
+    .editcard{
+        width: 39% !important;
+        display: inline-block !important;
+        margin-right: 2rem !important;
+    }
+    .mostpop{
+        height: 158vh;
+    }
+    .divyourgames{
+        margin-top: 8rem;
+        height: 407vh;
+    }
+    .divbuttonmost{
+        margin-top: 2.7rem;
+        padding-top: 0rem;
+    }
+    .divsections{
+        height: 661vh;
+    }
+    .divdotta{
+        display: block;
+        padding-left: 1rem;
+    }
+    .imgdota{
+        margin-bottom: 2rem;
+    }
+    .butdowm{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}
+/* -------------------end of lg screen--------------------- */
